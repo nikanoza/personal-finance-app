@@ -227,11 +227,17 @@
   .h-\[16px\] {
     height: 16px;
   }
+  .h-\[20px\] {
+    height: 20px;
+  }
   .h-\[24px\] {
     height: 24px;
   }
   .h-\[32px\] {
     height: 32px;
+  }
+  .h-\[45px\] {
+    height: 45px;
   }
   .h-\[52px\] {
     height: 52px;
@@ -259,6 +265,9 @@
   }
   .w-\[16px\] {
     width: 16px;
+  }
+  .w-\[20px\] {
+    width: 20px;
   }
   .w-\[32px\] {
     width: 32px;
@@ -369,6 +378,10 @@
   .rounded-tr-\[8px\] {
     border-top-right-radius: 8px;
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-1 {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -376,6 +389,9 @@
   .border-b-\[4px\] {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 4px;
+  }
+  .border-\[\#98908B\] {
+    border-color: #98908B;
   }
   .border-transparent {
     border-color: transparent;
@@ -389,6 +405,9 @@
   .bg-\[\#201F24\] {
     background-color: #201F24;
   }
+  .bg-\[\#98908B\] {
+    background-color: #98908B;
+  }
   .bg-\[\#C94736\] {
     background-color: #C94736;
   }
@@ -397,6 +416,9 @@
   }
   .bg-\[\#F8F4F0\] {
     background-color: #F8F4F0;
+  }
+  .bg-\[\#FFFFFF\] {
+    background-color: #FFFFFF;
   }
   .bg-\[\#FFF\] {
     background-color: #FFF;
@@ -427,6 +449,9 @@
   }
   .py-\[24px\] {
     padding-block: 24px;
+  }
+  .py-\[32px\] {
+    padding-block: 32px;
   }
   .pt-\[4px\] {
     padding-top: 4px;
@@ -561,6 +586,11 @@
       }
     }
   }
+  .sm\:p-\[50px\] {
+    @media (width >= 40rem) {
+      padding: 50px;
+    }
+  }
   .md\:block {
     @media (width >= 48rem) {
       display: block;
@@ -584,6 +614,11 @@
   .md\:gap-\[42px\] {
     @media (width >= 48rem) {
       gap: 42px;
+    }
+  }
+  .md\:p-\[32px\] {
+    @media (width >= 48rem) {
+      padding: 32px;
     }
   }
   .md\:px-\[40px\] {
@@ -752,6 +787,11 @@
   .xl\:px-0 {
     @media (width >= 80rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:px-\[40px\] {
+    @media (width >= 80rem) {
+      padding-inline: 40px;
     }
   }
   .xl\:pt-0 {
